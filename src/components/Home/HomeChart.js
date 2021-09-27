@@ -260,7 +260,7 @@ const HomeChart = () => {
                 :
 
                 <>
-                    <ChartCardContainer>
+                    <ChartCardContainer className='animate__animated animate__fadeIn'>
                         <div className='chart-title'>
                             <h2>Data Covid-19<span className='hide-medium'> Real-Time Update</span><br />Provinsi <span className='hide-medium'>Daerah Istimewa </span>Yogyakarta</h2>
                             <div className='last-update'>
@@ -268,7 +268,7 @@ const HomeChart = () => {
                                 <p>{lastUpdate}</p>
                             </div>
                         </div>
-                        <ChartCard className='animate__animated animate__fadeIn'>
+                        <ChartCard>
                             <Chart>
                                 <Line data={data} options={options} id='myChart' />
                             </Chart>
