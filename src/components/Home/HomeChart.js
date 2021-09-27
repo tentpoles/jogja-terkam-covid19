@@ -56,7 +56,7 @@ const ChartCardContainer = styled.div`
                 font-weight: var(--font-medium);
             }
             @media (max-width: 500px) {
-                margin: 12px 0 14px 0;
+                margin: 14px 0 12px 0;
             }
         }
     }
