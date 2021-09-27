@@ -40,7 +40,7 @@ const ChartCardContainer = styled.div`
             font-size: 16px;
         }
         .last-update {
-            margin: 16px 0;
+            margin: 20px 0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -56,7 +56,7 @@ const ChartCardContainer = styled.div`
                 font-weight: var(--font-medium);
             }
             @media (max-width: 500px) {
-                margin: 8px 0 14px 0;
+                margin: 12px 0 14px 0;
             }
         }
     }
