@@ -54,7 +54,7 @@ const Information = styled.div`
         font-size: 14px;
         font-weight: var(--font-medium);
         @media (max-width: 520px) {
-            text-align: justify;
+            text-align: center;
         }
     }
     .dark-overlay {
