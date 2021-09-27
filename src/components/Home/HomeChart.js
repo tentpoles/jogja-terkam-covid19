@@ -12,34 +12,66 @@ const ChartContainer = styled.section`
     min-height: 400px;
 `;
 
-const ChartCard = styled.div`
+const ChartCardContainer = styled.div`
     max-width: 720px;
     margin: 0 auto;
     border-radius: 12px;
     background: var(--subnav-bg-color);
-    overflow-x: auto;
-    position: relative;
     .chart-title {
-        padding-top: 42px;
-        min-width: 666px;
+        padding: 42px 24px 0 24px;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        h2 {
-            text-align: center;
-            font-size: 16px;
+        .hide-medium {
+            @media (max-width: 440px) {
+                display: none;
+            }
+        }
+        .hide-large {
+            @media (min-width: 441px) {
+                display: none;
+            }
+        }
+        h2, p {
             line-height: 7mm;
             color: var(--white-color);
             letter-spacing: 0.35mm;
         }
+        h2 {
+            text-align: center;
+            font-size: 16px;
+        }
+        .last-update {
+            margin: 16px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .blue-circle {
+                width: 9px;
+                height: 9px;
+                border-radius: 50%;
+                margin-right: 10px;
+                background: rgb(65, 135, 246);
+            }
+            p {
+                font-size: 12px;
+                font-weight: var(--font-medium);
+            }
+            @media (max-width: 500px) {
+                margin: 8px 0 16px 0;
+            }
+        }
     }
+`;
+
+const ChartCard = styled.div`
+    width: 100%;
+    overflow-x: auto;
+    position: relative;
 `;
 
 const Chart = styled.div`
     min-width: 666px;
     width: 100%;
-    padding: 24px 24px 42px 24px;
+    padding: 0 24px 42px 24px;
 `;
 
 const ChartCaseContainer = styled.div`
@@ -206,13 +238,13 @@ const HomeChart = () => {
               usePointStyle: true,
               pointStyle: 'circle',
               font: {
-                  size: 12,
+                  size: 0,
                   family: "'Inter', 'sans-serif'",
                   color: '#fff',
               },
-              padding: 16,
-              boxHeight: 6,
-              boxWidth: 6,
+              padding: 0,
+              boxHeight: 0,
+              boxWidth: 0,
               position: 'left',
               color: '#fff',
             },
@@ -229,14 +261,20 @@ const HomeChart = () => {
                 :
 
                 <>
-                    <ChartCard className='animate__animated animate__fadeIn'>
+                    <ChartCardContainer>
                         <div className='chart-title'>
-                            <h2>Data Covid-19 Real-Time Update<br />Provinsi Daerah Istimewa Yogyakarta</h2>
+                            <h2>Data Covid-19<span className='hide-medium'> Real-Time Update</span><br />Provinsi <span className='hide-medium'>Daerah Istimewa </span>Yogyakarta</h2>
+                            <div className='last-update'>
+                                <div className='blue-circle'></div>
+                                <p>{lastUpdate}</p>
+                            </div>
                         </div>
-                        <Chart>
-                            <Line data={data} options={options} id='myChart' />
-                        </Chart>
-                    </ChartCard>
+                        <ChartCard className='animate__animated animate__fadeIn'>
+                            <Chart>
+                                <Line data={data} options={options} id='myChart' />
+                            </Chart>
+                        </ChartCard>
+                    </ChartCardContainer>
                     <ChartCaseContainer>
                         <VerticalLine className='animate__animated animate__fadeIn animate__delay-1s'></VerticalLine>
                         <ChartCase className='animate__animated animate__fadeInUp'>

@@ -95,7 +95,7 @@ const HomeFooter = () => {
                     <div className='flex-item'>
                         <h3 className='footer-title'>Resources</h3>
                         <h3 className='footer-item'>
-                            <a href="https://github.com/satyawikananda/rs-bed-covid-indo-api/" target='_blank' rel="noreferrer">RS Bed Covid API</a>
+                            <a href="https://rs-bed-covid-api.vercel.app/" target='_blank' rel="noreferrer">RS Bed Covid API</a>
                         </h3>
                         <h3 className='footer-item'>
                             <a href="https://indonesia-covid-19.mathdro.id/api/provinsi" target='_blank' rel="noreferrer">Data Covid-19</a>

@@ -1,7 +1,7 @@
 {
   "homepage": "https://tentpoles.github.io/jogja-terkam-covid19",
   "name": "terkam-covid19",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
