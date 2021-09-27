@@ -1,4 +1,4 @@
-### Pokepedia (ReactApp with PokeAPI) 
+### Jogja Terkam Covid-19 
 # :exclamation::exclamation::exclamation: This is README for Project Setup
 What you need:
 - node package manager
