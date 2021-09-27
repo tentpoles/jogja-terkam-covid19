@@ -238,15 +238,14 @@ const HomeChart = () => {
               usePointStyle: true,
               pointStyle: 'circle',
               font: {
-                  size: 0,
+                  size: 1,
                   family: "'Inter', 'sans-serif'",
-                  color: '#fff',
+                  color: '#181e25',
               },
-              padding: 0,
-              boxHeight: 0,
-              boxWidth: 0,
+              boxHeight: 1,
+              boxWidth: 1,
               position: 'left',
-              color: '#fff',
+              color: '#181e25',
             },
           }
         }
