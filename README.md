@@ -3,7 +3,6 @@
 What you need:
 - node package manager
 - "@emotion/react": ^11.4.1
-- "@emotion/react": ^11.4.1
 - "@emotion/styled": ^11.3.0
 - "@testing-library/jest-dom": ^5.14.1
 - "@testing-library/react": ^11.2.7
