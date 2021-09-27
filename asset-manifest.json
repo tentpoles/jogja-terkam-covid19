@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jogja-terkam-covid19/static/css/main.d6803e6e.chunk.css",
-    "main.js": "/jogja-terkam-covid19/static/js/main.6b3281e4.chunk.js",
-    "main.js.map": "/jogja-terkam-covid19/static/js/main.6b3281e4.chunk.js.map",
+    "main.js": "/jogja-terkam-covid19/static/js/main.69c11204.chunk.js",
+    "main.js.map": "/jogja-terkam-covid19/static/js/main.69c11204.chunk.js.map",
     "runtime-main.js": "/jogja-terkam-covid19/static/js/runtime-main.0be1d6fe.js",
     "runtime-main.js.map": "/jogja-terkam-covid19/static/js/runtime-main.0be1d6fe.js.map",
     "static/css/2.6e39f41a.chunk.css": "/jogja-terkam-covid19/static/css/2.6e39f41a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.6e39f41a.chunk.css",
     "static/js/2.0b520d2e.chunk.js",
     "static/css/main.d6803e6e.chunk.css",
-    "static/js/main.6b3281e4.chunk.js"
+    "static/js/main.69c11204.chunk.js"
   ]
 }
