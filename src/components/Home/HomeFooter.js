@@ -107,7 +107,7 @@ const HomeFooter = () => {
                             <a href="https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA" target='_blank' rel="noreferrer">Indonesia Lokal API</a>
                         </h3>
                         <h3 className='footer-item'>
-                            <a href="https://github.com/tentpoles?tab=repositories" target='_blank' rel="noreferrer">GitHub Project Repository</a>
+                            <a href="https://github.com/tentpoles/jogja-terkam-covid19/tree/master" target='_blank' rel="noreferrer">GitHub Project Repository</a>
                         </h3>
                     </div>
                     <div className='flex-item'>
