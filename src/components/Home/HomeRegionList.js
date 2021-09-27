@@ -203,15 +203,6 @@ const HomeRegionList = () => {
                                 </div>
                             </Link>
                         </SwiperSlide>
-                    </Swiper>
-                    <Swiper
-                    navigation={true}
-                    // pagination={{"clickable": true}}
-                    grabCursor={true}
-                    slidesPerView={'auto'}
-                    spaceBetween={12}
-                    loop={true}
-                    className="mySwiper">
                         <SwiperSlide>
                             <Link to='/kulon-progo/non-covid'>
                                 <div className='swippie-container'>
