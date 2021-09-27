@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jogja-terkam-covid19/static/css/main.d6803e6e.chunk.css",
+    "main.js": "/jogja-terkam-covid19/static/js/main.29503db8.chunk.js",
+    "main.js.map": "/jogja-terkam-covid19/static/js/main.29503db8.chunk.js.map",
+    "runtime-main.js": "/jogja-terkam-covid19/static/js/runtime-main.0be1d6fe.js",
+    "runtime-main.js.map": "/jogja-terkam-covid19/static/js/runtime-main.0be1d6fe.js.map",
+    "static/css/2.6e39f41a.chunk.css": "/jogja-terkam-covid19/static/css/2.6e39f41a.chunk.css",
+    "static/js/2.f9dfe782.chunk.js": "/jogja-terkam-covid19/static/js/2.f9dfe782.chunk.js",
+    "static/js/2.f9dfe782.chunk.js.map": "/jogja-terkam-covid19/static/js/2.f9dfe782.chunk.js.map",
+    "static/js/3.2cb0162a.chunk.js": "/jogja-terkam-covid19/static/js/3.2cb0162a.chunk.js",
+    "static/js/3.2cb0162a.chunk.js.map": "/jogja-terkam-covid19/static/js/3.2cb0162a.chunk.js.map",
+    "index.html": "/jogja-terkam-covid19/index.html",
+    "static/css/2.6e39f41a.chunk.css.map": "/jogja-terkam-covid19/static/css/2.6e39f41a.chunk.css.map",
+    "static/css/main.d6803e6e.chunk.css.map": "/jogja-terkam-covid19/static/css/main.d6803e6e.chunk.css.map",
+    "static/js/2.f9dfe782.chunk.js.LICENSE.txt": "/jogja-terkam-covid19/static/js/2.f9dfe782.chunk.js.LICENSE.txt",
+    "static/media/home-icon.f54d7305.svg": "/jogja-terkam-covid19/static/media/home-icon.f54d7305.svg",
+    "static/media/navigation.less": "/jogja-terkam-covid19/static/media/navigation.01ec4e98.less",
+    "static/media/swiper.less": "/jogja-terkam-covid19/static/media/swiper.e5fcd925.less"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0be1d6fe.js",
+    "static/css/2.6e39f41a.chunk.css",
+    "static/js/2.f9dfe782.chunk.js",
+    "static/css/main.d6803e6e.chunk.css",
+    "static/js/main.29503db8.chunk.js"
+  ]
+}
