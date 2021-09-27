@@ -56,7 +56,7 @@ const ChartCardContainer = styled.div`
                 font-weight: var(--font-medium);
             }
             @media (max-width: 500px) {
-                margin: 8px 0 16px 0;
+                margin: 8px 0 14px 0;
             }
         }
     }
@@ -242,8 +242,8 @@ const HomeChart = () => {
                   family: "'Inter', 'sans-serif'",
                   color: '#181e25',
               },
-              boxHeight: 1,
-              boxWidth: 1,
+              boxHeight: 0,
+              boxWidth: 0,
               position: 'left',
               color: '#181e25',
             },
