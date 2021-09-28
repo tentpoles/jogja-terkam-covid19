@@ -121,7 +121,7 @@ a.mobile-navlink.active {
 }
 
 ::-webkit-scrollbar-thumb {
-  background:  rgba(21, 20, 26, 0.25);
+  background:  rgba(65, 135, 246, 0.2);
   border-top: 12px solid transparent;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
