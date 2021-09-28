@@ -6,10 +6,11 @@ import styled from '@emotion/styled';
 
 const HeaderContainer = styled.header`
     width: 100%;
-    height: 400px;
-    overflow: hidden;
-    @media (max-width: 520px) {
-        height: 200px;
+    #tsparticles {
+        height: 400px;
+        @media (max-width: 520px) {
+            height: 200px;
+        }
     }
 `;
 
