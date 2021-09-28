@@ -152,18 +152,22 @@ const HospitalDesc = styled.div`
         font-weight: var(--font-regular);
         white-space: nowrap;
         .icon {
+            position: relative;
             flex-shrink: 0;
             width: 24px;
             height: 24px;
-            display: flex;
             font-size: 10px;
-            align-items: center;
-            justify-content: center;
             background: var(--primary-bg-color);
             font-weight: var(--font-bold);
             color: var(--white-color);
             border-radius: 6px;
             margin-right: 8px;
+            i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
         a {
             color: var(--primary-bg-color);

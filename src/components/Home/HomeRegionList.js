@@ -16,6 +16,9 @@ const RegionListContainer = styled.section`
     width: 100%;
     margin-top: 92px;
     padding: 0 24px;
+    @media (max-width: 720px) {
+        padding: 0 0 0 24px;
+    }
 `;
 
 const RegionList = styled.div`
