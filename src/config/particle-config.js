@@ -8,7 +8,7 @@ const particlesConfig = {
       }
     },
     color: {
-      value: "rgba(65, 135, 246, 1)"
+      value: "rgb(65, 135, 246)"
     },
     shape: {
       type: "edge",
@@ -48,7 +48,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 160,
-      color: "rgba(65, 135, 246, 0.2)",
+      color: "rgb(65, 135, 246)",
       opacity: 0.2,
       width: 1
     },

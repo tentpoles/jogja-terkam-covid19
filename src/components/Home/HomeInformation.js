@@ -71,10 +71,10 @@ const Information = styled.div`
         );
     }
     &.minimize  {
-        height: 174px;
+        height: 178px;
         overflow: hidden;
         @media (min-width: 521px) {
-            height: 152px;
+            height: 156px;
         }
     }
     &.maximize  {
@@ -91,7 +91,7 @@ const BtnLoadMore = styled.div`
     font-size: 12px;
     position: absolute;
     left: 50%;
-    bottom: -30px;
+    bottom: -29px;
     transform: translateX(-50%);
     color: var(--white-color);
     font-weight: var(--font-bold);
