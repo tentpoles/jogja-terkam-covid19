@@ -227,7 +227,7 @@ const HomeContribute = () => {
                         </a>
                     </RightSide>
                 </Contribute>
-                <LineBreak></LineBreak>
+                <LineBreak className="animate__animated animate__fadeInUp"></LineBreak>
             </ContributeContainer>
         </>
     )
