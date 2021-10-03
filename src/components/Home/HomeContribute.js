@@ -85,6 +85,7 @@ const LeftSide = styled.div`
             font-size: 13px;
             position: relative;
             left: 6px;
+            top: -1px;
             color: var(--white-color);
             animation: arrow-right .7s infinite;
         }
@@ -150,10 +151,11 @@ const RightSide = styled.div`
             }
             .project-name {
                 flex: 1 1 100%;
-                margin: 2px 0 0 12px;
+                margin: 3px 0 0 12px;
                 font-size: 14px;
                 letter-spacing: 0.4mm;
-                line-height: 5.5mm;
+                line-height: 5mm;
+                font-weight: var(--font-bold);
                 .project-author {
                     color: rgba(255, 255, 255, 0.4);
                     font-weight: var(--font-regular);
@@ -214,7 +216,7 @@ const HomeContribute = () => {
                         <h4 className="contribute-subheader">Pull request melalui GitHub<span className="hide-small"> repository</span>.</h4>
                         <p className="contribute-description">100% project for humanity<span className="hide-small"> first</span>.</p>
                         <a href="https://github.com/tentpoles/jogja-terkam-covid19/pulls"  target='_blank' rel="noreferrer" className="contribute-cta">
-                            <span className="contribute-cta-text">Kontribusi <span className="hide-small">dalam project ini</span><span className="hide-large">sekarang</span></span>
+                            <span className="contribute-cta-text">Mulai berkontribusi <span className="hide-small">project</span></span>
                             <i className="fas fa-arrow-right"></i>
                         </a>
                     </LeftSide>
