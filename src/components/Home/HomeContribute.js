@@ -45,7 +45,7 @@ const LeftSide = styled.div`
         color: #4187f6;
         line-height: 7mm;
         font-weight: var(--font-bold);
-        margin-bottom: 32px;
+        margin-bottom: 26px;
     }
     .contribute-cta {
         position: relative;
@@ -191,7 +191,7 @@ const RightSide = styled.div`
         }
     }
     @media (max-width: 792px) {
-        margin-top: 42px;
+        margin-top: 48px;
         margin-left: 0px;
         flex: 0 0 100%;
     }
