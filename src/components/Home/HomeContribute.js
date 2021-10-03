@@ -30,6 +30,7 @@ const LeftSide = styled.div`
         color: var(--white-color);
         line-height: 7mm;
         max-width: 420px;
+        font-weight: var(--font-bold);
     }
     .contribute-subheader {
         font-size: 14px;
