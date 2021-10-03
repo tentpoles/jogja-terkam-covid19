@@ -7,6 +7,7 @@ import HomeRegionList from './HomeRegionList';
 import HomeInformation from './HomeInformation';
 import HomeFooter from './HomeFooter';
 import HomeHeader from './HomeHeader';
+import HomeContribute from './HomeContribute';
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
                 <HomeRegionList></HomeRegionList>
                 <HomeChart></HomeChart>
                 <HomeInformation></HomeInformation>
+                <HomeContribute></HomeContribute>
                 <HomeFooter></HomeFooter>
             </div>
             <Navigation></Navigation>

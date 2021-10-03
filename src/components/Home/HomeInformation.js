@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 const HomeInformationContainer = styled.section`
     width: 100%;
     padding: 0 24px;
-    margin: 92px 0;
+    margin: 92px 0 112px 0;
     position: relative;
     .hide-small {
         @media (max-width: 520px) {

@@ -6,6 +6,8 @@ import styled from '@emotion/styled';
 
 const HeaderContainer = styled.header`
     width: 100%;
+    position: relative;
+    background: #12161b;
     #tsparticles {
         height: 400px;
         @media (max-width: 520px) {

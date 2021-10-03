@@ -5,7 +5,6 @@ import styled from '@emotion/styled';
 
 const SitemapContainer = styled.section`
     width: 100%;
-    margin-top: 124px;
     padding: 0 12px;
     background: #0e1114;
 `;
