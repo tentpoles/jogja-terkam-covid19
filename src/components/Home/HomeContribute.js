@@ -84,7 +84,6 @@ const LeftSide = styled.div`
             font-size: 13px;
             position: relative;
             left: 6px;
-            top: -1px;
             color: var(--white-color);
             animation: arrow-right .7s infinite;
         }
