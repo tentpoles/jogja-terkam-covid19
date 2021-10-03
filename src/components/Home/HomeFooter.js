@@ -90,7 +90,7 @@ const HomeFooter = () => {
     return (
         <>
             <SitemapContainer>
-                <Sitemap className='animate__animated animate__fadeInUp'>
+                <Sitemap className='animate__animated animate__fadeIn'>
                     <div className='flex-item'>
                         <h3 className='footer-title'>Resources</h3>
                         <h3 className='footer-item'>
@@ -148,8 +148,8 @@ const HomeFooter = () => {
                 </Sitemap>
             </SitemapContainer>
             <FooterContainer>
-                <LineBreak className='animate__animated animate__fadeInUp'></LineBreak>
-                <Footer className='animate__animated animate__fadeInUp'>
+                <LineBreak className='animate__animated animate__fadeIn'></LineBreak>
+                <Footer className='animate__animated animate__fadeIn'>
                     <span className='left'>
                         Developed by <a href="https://www.linkedin.com/in/b-alkautsar/" target='_blank' rel="noreferrer">B. Alkautsar</a>
                     </span>
