@@ -29,7 +29,7 @@ const LeftSide = styled.div`
         font-size: 18px;
         color: var(--white-color);
         line-height: 7mm;
-        width: 380px;
+        max-width: 420px;
     }
     .contribute-subheader {
         font-size: 14px;
@@ -111,7 +111,7 @@ const LeftSide = styled.div`
 const RightSide = styled.div`
     flex: 0 1 100%;
     max-width: 500px;
-    margin-left: 24px;
+    margin-left: 32px;
     .github-repository-card {
         display: block;
         width: 100%;
