@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 
 const ContributeContainer = styled.section`
     width: 100%;
-    padding: 82px 24px 0px 24px;
+    padding: 92px 24px 0px 24px;
     background: #0e1114;
 `;
 
@@ -35,7 +35,7 @@ const LeftSide = styled.div`
     .contribute-subheader {
         font-size: 14px;
         color: var(--white-color);
-        line-height: 7mm;
+        line-height: 5.5mm;
         margin-top: 32px;
         font-weight: var(--font-medium);
     }
@@ -87,6 +87,16 @@ const LeftSide = styled.div`
             left: 6px;
             color: var(--white-color);
             animation: arrow-right .7s infinite;
+        }
+    }
+    .hide-small {
+        @media (max-width: 380px) {
+            display: none;
+        }
+    }
+    .hide-large {
+        @media (min-width: 381px) {
+            display: none;
         }
     }
     @keyframes arrow-right {
@@ -162,7 +172,7 @@ const RightSide = styled.div`
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            margin-top: 8px;
+            margin-top: 6px;
             .tag-list {
                 margin: 8px 8px 0 0;
                 display: inline-block;
@@ -201,10 +211,10 @@ const HomeContribute = () => {
                 <Contribute>
                     <LeftSide className="animate__animated animate__fadeInLeft">
                         <h3 className="contribute-header">Ingin berkontribusi dalam project ini sehingga menjadikannya lebih baik?</h3>
-                        <h4 className="contribute-subheader">Pull request melalui GitHub repository.</h4>
-                        <p className="contribute-description">100% project for humanity first.</p>
+                        <h4 className="contribute-subheader">Pull request melalui GitHub<span className="hide-small"> repository</span>.</h4>
+                        <p className="contribute-description">100% project for humanity<span className="hide-small"> first</span>.</p>
                         <a href="https://github.com/tentpoles/jogja-terkam-covid19/pulls"  target='_blank' rel="noreferrer" className="contribute-cta">
-                            <span className="contribute-cta-text">Kontribusi dalam project ini</span>
+                            <span className="contribute-cta-text">Kontribusi <span className="hide-small">dalam project ini</span><span className="hide-large">sekarang</span></span>
                             <i className="fas fa-arrow-right"></i>
                         </a>
                     </LeftSide>
