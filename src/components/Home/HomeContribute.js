@@ -152,7 +152,7 @@ const RightSide = styled.div`
             }
         }
         .project-description {
-            margin-top: 12px;
+            margin-top: 10px;
             font-weight: var(--font-medium);
             font-size: 12px;
             letter-spacing: 0.35mm;
