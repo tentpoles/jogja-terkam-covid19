@@ -212,11 +212,11 @@ const HomeContribute = () => {
             <ContributeContainer>
                 <Contribute>
                     <LeftSide className="animate__animated animate__fadeInLeft">
-                        <h3 className="contribute-header">Ingin berkontribusi dalam project ini sehingga menjadikannya lebih baik?</h3>
+                        <h3 className="contribute-header">Ingin berkontribusi dalam project ini untuk menjadikannya lebih baik?</h3>
                         <h4 className="contribute-subheader">Pull request melalui GitHub<span className="hide-small"> repository</span>.</h4>
                         <p className="contribute-description">100% project for humanity<span className="hide-small"> first</span>.</p>
                         <a href="https://github.com/tentpoles/jogja-terkam-covid19/pulls"  target='_blank' rel="noreferrer" className="contribute-cta">
-                            <span className="contribute-cta-text">Mulai berkontribusi<span className="hide-small"> project</span></span>
+                            <span className="contribute-cta-text">Mulai berkontribusi</span>
                             <i className="fas fa-arrow-right"></i>
                         </a>
                     </LeftSide>
