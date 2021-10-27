@@ -154,7 +154,7 @@ const YogyakartaNonCovid = () => {
                                     <img src={`https://firebasestorage.googleapis.com/v0/b/terkam-covid-19.appspot.com/o/${hospital.id}-min.jpg?alt=media`} alt="" />
                                     <HospitalDesc>
                                         {
-                                            hospital.available_beds && hospital.available_beds.length === 0 ?
+                                            hospital.available_beds[0].available === 0 ?
                                             <h4 className='bed-not-available'>Tidak Tersedia</h4>
                                             :
                                             <h4 className='bed-available'>
@@ -164,7 +164,6 @@ const YogyakartaNonCovid = () => {
                                             </h4>
                                         }
                                         <h3>{hospital.name && hospital.name.length > 18 ? hospital.name.substring(0,18) + '...' : hospital.name}</h3>
-                                        <p>{hospital.info && hospital.info.length > 30 ? hospital.info.substring(0,28) : hospital.info}.</p>
                                     </HospitalDesc>
                                 </Hospital>
                             </Link>
