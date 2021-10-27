@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/jogja-terkam-covid19/static/css/main.cb2af461.chunk.css",
-    "main.js": "/jogja-terkam-covid19/static/js/main.aee215dd.chunk.js",
-    "main.js.map": "/jogja-terkam-covid19/static/js/main.aee215dd.chunk.js.map",
-    "runtime-main.js": "/jogja-terkam-covid19/static/js/runtime-main.8cb95168.js",
-    "runtime-main.js.map": "/jogja-terkam-covid19/static/js/runtime-main.8cb95168.js.map",
+    "main.js": "/jogja-terkam-covid19/static/js/main.ac9ecb4f.chunk.js",
+    "main.js.map": "/jogja-terkam-covid19/static/js/main.ac9ecb4f.chunk.js.map",
+    "runtime-main.js": "/jogja-terkam-covid19/static/js/runtime-main.bae23fb1.js",
+    "runtime-main.js.map": "/jogja-terkam-covid19/static/js/runtime-main.bae23fb1.js.map",
     "static/css/2.6e39f41a.chunk.css": "/jogja-terkam-covid19/static/css/2.6e39f41a.chunk.css",
-    "static/js/2.792997e8.chunk.js": "/jogja-terkam-covid19/static/js/2.792997e8.chunk.js",
-    "static/js/2.792997e8.chunk.js.map": "/jogja-terkam-covid19/static/js/2.792997e8.chunk.js.map",
-    "static/js/3.31ca5884.chunk.js": "/jogja-terkam-covid19/static/js/3.31ca5884.chunk.js",
-    "static/js/3.31ca5884.chunk.js.map": "/jogja-terkam-covid19/static/js/3.31ca5884.chunk.js.map",
+    "static/js/2.26347932.chunk.js": "/jogja-terkam-covid19/static/js/2.26347932.chunk.js",
+    "static/js/2.26347932.chunk.js.map": "/jogja-terkam-covid19/static/js/2.26347932.chunk.js.map",
+    "static/js/3.7d86dc1b.chunk.js": "/jogja-terkam-covid19/static/js/3.7d86dc1b.chunk.js",
+    "static/js/3.7d86dc1b.chunk.js.map": "/jogja-terkam-covid19/static/js/3.7d86dc1b.chunk.js.map",
     "index.html": "/jogja-terkam-covid19/index.html",
     "static/css/2.6e39f41a.chunk.css.map": "/jogja-terkam-covid19/static/css/2.6e39f41a.chunk.css.map",
     "static/css/main.cb2af461.chunk.css.map": "/jogja-terkam-covid19/static/css/main.cb2af461.chunk.css.map",
-    "static/js/2.792997e8.chunk.js.LICENSE.txt": "/jogja-terkam-covid19/static/js/2.792997e8.chunk.js.LICENSE.txt",
+    "static/js/2.26347932.chunk.js.LICENSE.txt": "/jogja-terkam-covid19/static/js/2.26347932.chunk.js.LICENSE.txt",
     "static/media/home-icon.f54d7305.svg": "/jogja-terkam-covid19/static/media/home-icon.f54d7305.svg",
     "static/media/navigation.less": "/jogja-terkam-covid19/static/media/navigation.01ec4e98.less",
     "static/media/swiper.less": "/jogja-terkam-covid19/static/media/swiper.e5fcd925.less"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cb95168.js",
+    "static/js/runtime-main.bae23fb1.js",
     "static/css/2.6e39f41a.chunk.css",
-    "static/js/2.792997e8.chunk.js",
+    "static/js/2.26347932.chunk.js",
     "static/css/main.cb2af461.chunk.css",
-    "static/js/main.aee215dd.chunk.js"
+    "static/js/main.ac9ecb4f.chunk.js"
   ]
 }
