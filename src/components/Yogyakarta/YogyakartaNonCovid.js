@@ -164,6 +164,7 @@ const YogyakartaNonCovid = () => {
                                             </h4>
                                         }
                                         <h3>{hospital.name && hospital.name.length > 18 ? hospital.name.substring(0,18) + '...' : hospital.name}</h3>
+                                        <p>{hospital.available_beds[0].info && hospital.available_beds[0].info > 30 ? hospital.available_beds[0].info.substring(0,28) : hospital.available_beds[0].info}.</p>
                                     </HospitalDesc>
                                 </Hospital>
                             </Link>
